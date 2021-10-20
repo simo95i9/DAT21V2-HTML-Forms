@@ -66,5 +66,4 @@ public class FreeMoneyController {
         return "failure";
     }
 
-
 }

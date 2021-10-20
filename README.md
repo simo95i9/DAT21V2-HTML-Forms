@@ -37,6 +37,10 @@ Currently, we are dropping the tables and recreating them every time the applica
 This is obviously not optimal if you want to save all those emails you have collected.  
 Dumping the database to a file on shutdown and reloading the dump when restarting is left as an exercise for the reader ;)
 
+## Screenshots
+![Homepage Screenshot](src/main/resources/static/images/screenshot.png)
+
+
 ## Third-Party Software Used
   - [MySQL v8.0.26](https://github.com/mysql/mysql-server) | GPL 2.0
   - [OpenJDK 17](https://github.com/openjdk/jdk) | GPL 2.0
