@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <th:block th:include="fragments/components :: head" />
+    <title>Success!</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row heading">
+            <h1>Success!</h1>
+        </div>
+        <div class="row message">
+            <p th:inline="text">
+                Congratulations <span id="name">[[${user.names}]]</span>
+                we have received your request for <span id="money">$[[${user.money}]]</span>
+                <br>
+                We will verify your request and contact you at <span id="email">[[${user.email}]]</span> shortly
+            </p>
+        </div>
+    </div>
+</body>
+</html>

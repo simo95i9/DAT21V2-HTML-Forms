@@ -1,0 +1,72 @@
+body {
+    box-sizing: border-box;
+    width: 100vw;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1rem auto;
+    max-width: 1100px;
+}
+
+.container > .row {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+
+    margin: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.row input {
+    flex-grow: 1;
+}
+
+form input {
+    border-top: none;
+    border-right: none;
+    border-bottom: solid 0.1rem black;
+    border-left: none;
+
+    padding: 0.5rem 0;
+}
+
+form input[type=submit] {
+    border: initial;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+label, input {
+    font-family: system-ui;
+    font-size: 1.1rem;
+    margin: 0.6rem auto;
+}
+
+label {
+    margin-right: 0.5rem;
+}
+
+.heading {
+    font-family: system-ui;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.message {
+    font-family: system-ui;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.message span {
+    font-weight: bold;
+}
