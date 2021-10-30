@@ -49,4 +49,4 @@ Dumping the database to a file on shutdown and reloading the dump when restartin
   - [normalize.css](https://github.com/necolas/normalize.css) v8.0.1 | MIT
 
 ## License
-This project is released under the [WTFPL](http://www.wtfpl.net)
+This project is released under the MIT License
